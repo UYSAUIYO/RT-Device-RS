@@ -1,0 +1,17 @@
+# WebSocket服务器实现
+websockets>=10.4
+
+# MySQL数据库连接器
+mysql-connector-python>=8.0.28
+
+# 异步编程支持（标准库，但明确列出以强调依赖）
+asyncio
+
+# 可选依赖：用于更高级的日志记录（如果需要）
+# python-json-logger>=2.0.4
+
+# 可选依赖：用于环境变量管理（如果需要）
+# python-dotenv>=0.20.0
+
+# 可选依赖：用于异步数据库操作（如果需要替代mysql-connector）
+# aiomysql>=0.1.1
